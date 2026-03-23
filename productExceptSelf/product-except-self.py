@@ -26,12 +26,10 @@ class Solution:
             else:
                 ans[i] = prefix[i-1] * suffix[i+1]
 
-                
-
         return ans   
 
 if __name__ == "__main__":
     s = Solution()
     print(s.productExceptSelf([1,2,4,6]))
-    print(s.productExceptSelf([-1,0,1,2,3]))        
+    print(s.productExceptSelf([-1,0,1,2,3]))     
 
